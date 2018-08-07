@@ -20,6 +20,7 @@ int getResult(int k, int N) {
             result = result * temp;
         }
         temp = temp * temp;
+        N >>= 1;//change the exponent
 //        temp = temp % m;
 //        result = result % m;
     }
